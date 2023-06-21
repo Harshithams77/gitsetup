@@ -21,3 +21,82 @@ The key's randomart image is:
 |   o+=.B +       |
 |  .=+o. o        |
 +----[SHA256]-----+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\harshitha.ms\Desktop\git> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\harshitha.ms\Desktop\git> git init
+Initialized empty Git repository in C:/Users/harshitha.ms/Desktop/git/.git/
+PS C:\Users\harshitha.ms\Desktop\git> git add .
+PS C:\Users\harshitha.ms\Desktop\git> git remote add origin git@github.com:Harshithams77/gitsetup.git
+PS C:\Users\harshitha.ms\Desktop\git> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\harshitha.ms\Desktop\git> git add .
+PS C:\Users\harshitha.ms\Desktop\git> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git setup.txt
+        new file:   gitsetup.rtf
+
+PS C:\Users\harshitha.ms\Desktop\git> git commit -m "gitset"
+[master (root-commit) 852df4e] gitset
+ 2 files changed, 308653 insertions(+)
+ create mode 100644 git setup.txt
+ create mode 100644 gitsetup.rtf
+PS C:\Users\harshitha.ms\Desktop\git> git puish origin master
+git: 'puish' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+PS C:\Users\harshitha.ms\Desktop\git> git push origin master
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 231.81 KiB | 1018.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Harshithams77/gitsetup.git
+ * [new branch]      master -> master
+PS C:\Users\harshitha.ms\Desktop\git>
+                                      git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitsetup.rtf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\harshitha.ms\Desktop\git> git add .
+PS C:\Users\harshitha.ms\Desktop\git> git commit -m "second"
+[master 0080aac] second
+ 1 file changed, 60 insertions(+), 1 deletion(-)
+PS C:\Users\harshitha.ms\Desktop\git> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.31 KiB | 2.31 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Harshithams77/gitsetup.git
+   852df4e..0080aac  master -> master
+PS C:\Users\harshitha.ms\Desktop\git>
